@@ -7,11 +7,12 @@ namespace MyConsoleApplication
     {
        static void  Main(string[] args)
        {
-        System.Console.WriteLine("Hello,");
-        Console.WriteLine("World!");
+	       int a = 5, b = 7;
+	       int max = (a<b);
 
-        Console.ReadLine();
-
+               Console.WriteLine("Выведем какое из чисел больше:");
+	       max = Console.WriteLine();
+		
        }
 
     }
